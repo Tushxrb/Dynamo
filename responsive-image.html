@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Image</title>
+    <style>
+      @media (min-width: 768px) {
+        .img1 {
+          width: 200px;
+          height: 400px;
+        }
+
+        .img2 {
+          width: 200px;
+          height: 400px;
+        }
+
+        @media (max-width: 400px) {
+          .img1 {
+            width: 50px;
+            height: 100px;
+          }
+
+          .img2 {
+            width: 100px;
+            height: 200px;
+          }
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Show images as per Browser width size</h2>
+    <img src="Cover Story_ Daft Punk.jpg" alt="" class="img1" />
+    <img src="𝟣 _ 𝟤.jpg" alt="" class="img2" />
+  </body>
+</html>
